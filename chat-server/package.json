@@ -1,0 +1,44 @@
+{
+  "name": "chatgpt",
+  "version": "0.0.1",
+  "description": "chatgpt",
+  "author": "ymc",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "pm2": "pm2 start --name chatgpt npm -- run dev:esm --watch",
+    "dev": "nodemon --exec 'ts-node' --files app.ts",
+    "dev:esm": "nodemon --exec 'ts-node-esm' --files app.ts",
+    "tsx": "tsx app.ts",
+    "start": "npm run dev",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ext .ts,.js,.vue ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-static": "^4.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "chatgpt": "^4.4.0",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0",
+    "koa-xml-body": "^2.2.0",
+    "xml2js": "^0.4.23"
+  }
+}

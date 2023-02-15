@@ -1,0 +1,31 @@
+{
+  "name": "react-vite-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:tsc": "tsc && vite build",
+    "test": "tsc && vite build --mode test",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@chatui/core": "2.4.2",
+    "antd-mobile": "^5.0.0-beta.17",
+    "axios": "^0.23.0",
+    "hox": "^1.1.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.4",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.3.7",
+    "less": "^4.1.2",
+    "postcss-px-to-viewport": "^1.1.1",
+    "react-router-dom": "^5.3.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
+  }
+}

@@ -1,0 +1,1 @@
+const o={get(s){const e=sessionStorage[s];return!e||e==="null"?null:JSON.parse(e).value},set(s,e){const t={value:e};sessionStorage[s]=JSON.stringify(t)},remove(s){sessionStorage.removeItem(s)},clear(){sessionStorage.clear()}};export{o as s};
