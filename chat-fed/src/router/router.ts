@@ -9,7 +9,7 @@ const Miss = React.lazy(() => import('@/pages/404/404'))
 const routerMap:any[] = [
   {
     path: '/',
-    redirect: '/home',
+    component: Home,
     auth: false,
     footerShow: true
   },

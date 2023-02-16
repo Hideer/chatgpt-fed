@@ -6,10 +6,10 @@ import { Context } from 'koa';
 import xml from "./../utils/xml/xmlTool.js";
 
 const router = new Router();
-const api = new ChatGPTAPI({ apiKey: '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',debug: true})
+const api = new ChatGPTAPI({ apiKey: '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',debug: true})
 // @ts-ignore
 // const api = new ChatGPTAPI({ sessionToken: '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'})
-
+// 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
 
 const encryption = {
   md5: (str: crypto.BinaryLike) => {

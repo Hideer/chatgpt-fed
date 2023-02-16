@@ -33,7 +33,7 @@ Date.prototype.Format = function (fmt?: string) {
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/chat">
+    <BrowserRouter basename="/ai">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
