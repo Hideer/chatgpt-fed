@@ -1,6 +1,6 @@
 export default {
   // chatgpt
-  chatgpt: '/chatgpt/api/chatgpt',
+  chatgpt: '/chatgpt/api/ai',
   // 
   exportDetails: '/exportDetails', //下载
   commonUpload: '/upload', // 上传图片

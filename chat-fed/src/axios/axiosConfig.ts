@@ -31,7 +31,7 @@ const apiCode: any = {
 
 let request = axios.create({
   baseURL: url,
-  timeout: 2e4,
+  timeout: 2 * 60 * 1000,
   responseType: 'json',
 });
 /**
